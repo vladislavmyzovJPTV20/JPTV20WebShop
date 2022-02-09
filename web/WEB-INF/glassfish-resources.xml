@@ -7,8 +7,8 @@
         <property name="databaseName" value="jptv20webshop"/>
         <property name="User" value="jptv20webshop"/>
         <property name="Password" value="jptv20webshop"/>
-        <property name="URL" value="jdbc:mysql://localhost:3306/jptv20webshop?zeroDateTimeBehavior=convertToNull&amp;useUnicde=true&amp;characterEncoding=utf8"/>
+        <property name="URL" value="jdbc:mysql://localhost:3306/jptv20webshop?zeroDateTimeBehavior=convertToNull&amp;useUnicode=true&amp;characterEncoding=utf8"/>
         <property name="driverClass" value="com.mysql.jdbc.Driver"/>
     </jdbc-connection-pool>
-    <jdbc-resource enabled="true" jndi-name="java:app/jdbc/jptv20webshopDS" object-type="user" pool-name="mysql_jptv20webshop_jptv20webshopPool"/>
+    <jdbc-resource enabled="true" jndi-name="java:app/jdbc/JPTV20webshopDS" object-type="user" pool-name="mysql_jptv20webshop_jptv20webshopPool"/>
 </resources>
